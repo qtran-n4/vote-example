@@ -1,0 +1,85 @@
+import ChoiceBar from "client/components/ChoiceBar";
+import * as React from 'react';
+
+interface ~Choice {
+	public id: string;
+	public title: string;
+	public count: int;
+}
+
+interface ~Vote {
+	public title: string;
+	public description: string;
+	public choices: Array<Choice>;
+}
+
+export public interface VotingComponentProps extends React.ComponentProps {
+	public vote: Vote;
+}
+
+interface ~VotingComponentState {
+	public vote: Vote;
+}
+
+export default class VotingComponent extends React.Component<VotingComponentProps, VotingComponentState> {
+	
+	public constructor(props: VotingComponentProps) {
+		super(props);
+		this.state = {
+			vote: props.vote	
+		}
+	}
+	
+	registerChoice(c: Choice) {
+		const { vote } = this.state;
+		const newVote = {
+			// Spread operator `...vote` would be much better!
+			title : vote.title,
+			description: vote.description,
+			choices:
+				vote.choices.map
+					(choice => choice.id != c.id? choice : 
+						{ // Spread operator `...choice` is desired!
+						  id: choice.id,
+						  title: choice.title,
+						  count: choice.count +1
+						}
+					)
+		};
+		this.setState({ vote: newVote });
+	}
+	
+    @Override
+    public render(): React.Element<?> {
+        const { vote } = this.state;
+        
+        const totalVotes = vote.choices.reduce(
+        	(prev, curr) => prev + curr.count, 0);
+
+        return (
+            <div className="Row VotingRow Spacer">
+                <div className="Head">
+                    <h1 className="Title">{vote.title}
+                        <div className="Badge">{totalVotes + "Votes"}</div>
+                    </h1>
+                </div>
+                <div className="Description Emphasis">
+                 {vote.description}
+                </div>
+                <div>
+                	{vote.choices.map(choice => 
+                		<ChoiceBar 
+                			key={choice.id}
+                			onClickHandler={() => this.registerChoice(choice)}
+                			percent={choice.count * (100 / totalVotes)} 
+                			{...choice} />
+                	)} // key={c.id} ??
+                </div>
+            </div>
+        );
+    }
+}
+
+//VotingComponent.propTypes = {
+//    vote: React.PropTypes.object.isRequired
+//}

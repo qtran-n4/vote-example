@@ -1,0 +1,32 @@
+import * as React from 'react';
+
+//interface LayoutProps extends React.ComponentProps {
+//	public children: Object;
+//	
+//}
+
+export default class Layout extends React.Component<React.ComponentProps, Object> {
+	@Override
+	public render(): React.Element<?> {
+		return (
+	        <div className="Background">
+	            <div className="Header">
+	                <div className="Title">
+	                    {"Voting as a Service"}
+	                </div>
+	            </div>
+	
+	            <div className="Main">
+	                <div className="Container">
+	                    {this.props.children}
+	                </div>
+	            </div>
+	        </div>
+	    );		
+	}
+}
+
+
+//Layout.propTypes = {
+//    children: React.PropTypes.element.isRequired
+//}

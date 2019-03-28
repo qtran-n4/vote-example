@@ -1,0 +1,24 @@
+import * as React from 'react';
+
+export public interface ChoiceBarProps {
+	public title: string;
+	public percent: int;
+	public count: int;
+	public onClickHandler: Function;
+}
+
+export default function ChoiceBar(props: ChoiceBarProps): React.Element<?> {
+    return <div className="ChoiceBar"
+    			onClick={props.onClickHandler}>
+        <div className="Progress" style={{'width':  props.percent + '%'}}>
+            <div className="ChoiceBarTitle">{props.title}</div>
+        </div>
+        <div className="ChoiceBarBadge">{props.count}</div>
+    </div>
+}
+
+//ChoiceBar.propTypes = {
+//    title:   React.PropTypes.string.isRequired,
+//    count:   React.PropTypes.number.isRequired,
+//    percent: React.PropTypes.number.isRequired,
+//}
