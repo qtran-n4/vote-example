@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="256 145 654 697" width="654" height="697">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 8 3 0 0 0 9 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="975.0061" descent="-216.99524" font-weight="700">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue-Bold"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.10.2 
+    <dc:date>2019-03-29 15:30:06 +0000</dc:date>
+  </metadata>
+  <g id="Canvas_1" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none">
+    <title>Canvas 1</title>
+    <rect fill="white" x="256" y="145" width="654" height="697"/>
+    <g id="Canvas_1: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_33">
+        <rect x="583" y="695" width="326" height="146.5" fill="#dadada"/>
+        <rect x="583" y="695" width="326" height="146.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_2">
+        <rect x="257" y="146" width="652" height="521.5" fill="white"/>
+        <rect x="257" y="146" width="652" height="521.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_3">
+        <text transform="translate(267.5 156.5)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="8881784e-20" y="15">Layout</tspan>
+        </text>
+      </g>
+      <g id="Graphic_4">
+        <path d="M 390.95 199 L 771.05 199 C 816.0104 199 852.5 207.848 852.5 218.75 C 852.5 229.652 816.0104 238.5 771.05 238.5 L 390.95 238.5 C 345.9896 238.5 309.5 229.652 309.5 218.75 C 309.5 207.848 345.9896 199 390.95 199 Z" fill="white"/>
+        <path d="M 390.95 199 L 771.05 199 C 816.0104 199 852.5 207.848 852.5 218.75 C 852.5 229.652 816.0104 238.5 771.05 238.5 L 390.95 238.5 C 345.9896 238.5 309.5 229.652 309.5 218.75 C 309.5 207.848 345.9896 199 390.95 199 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(368.8 208.75)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" x="123.176" y="16">Title:</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" y="16"> Voting as a Service</tspan>
+        </text>
+      </g>
+      <g id="Graphic_6">
+        <rect x="309.5" y="256" width="543" height="370.5" fill="white"/>
+        <rect x="309.5" y="256" width="543" height="370.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_7">
+        <text transform="translate(319 266.5)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">VotingComponent</tspan>
+        </text>
+      </g>
+      <g id="Graphic_8">
+        <path d="M 403.85 301.5 L 760.15 301.5 C 802.2952 301.5 836.5 310.348 836.5 321.25 C 836.5 332.152 802.2952 341 760.15 341 L 403.85 341 C 361.7048 341 327.5 332.152 327.5 321.25 C 327.5 310.348 361.7048 301.5 403.85 301.5 Z" fill="white"/>
+        <path d="M 403.85 301.5 L 760.15 301.5 C 802.2952 301.5 836.5 310.348 836.5 321.25 C 836.5 332.152 802.2952 341 760.15 341 L 403.85 341 C 361.7048 341 327.5 332.152 327.5 321.25 C 327.5 310.348 361.7048 301.5 403.85 301.5 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(383.4 311.25)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" x="12.656" y="16">Title:</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" y="16"> How is your day?            </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" y="16">Total votes:</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" y="16"> 20 votes</tspan>
+        </text>
+      </g>
+      <g id="Graphic_9">
+        <path d="M 403.85 356.75 L 760.15 356.75 C 802.2952 356.75 836.5 365.598 836.5 376.5 C 836.5 387.402 802.2952 396.25 760.15 396.25 L 403.85 396.25 C 361.7048 396.25 327.5 387.402 327.5 376.5 C 327.5 365.598 361.7048 356.75 403.85 356.75 Z" fill="white"/>
+        <path d="M 403.85 356.75 L 760.15 356.75 C 802.2952 356.75 836.5 365.598 836.5 376.5 C 836.5 387.402 802.2952 396.25 760.15 396.25 L 403.85 396.25 C 361.7048 396.25 327.5 387.402 327.5 376.5 C 327.5 365.598 361.7048 356.75 403.85 356.75 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(383.4 366.5)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" x="12.96" y="16">Description:</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" y="16"> Tell me how your day has been so far?</tspan>
+        </text>
+      </g>
+      <g id="Graphic_10">
+        <rect x="331" y="412" width="505.5" height="86" fill="white"/>
+        <rect x="331" y="412" width="505.5" height="86" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_11">
+        <text transform="translate(337 417)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">ChoiceBar</tspan>
+        </text>
+      </g>
+      <g id="Graphic_16">
+        <path d="M 363.275 445 L 481.225 445 C 495.1768 445 506.5 453.848 506.5 464.75 C 506.5 475.652 495.1768 484.5 481.225 484.5 L 363.275 484.5 C 349.3232 484.5 338 475.652 338 464.75 C 338 453.848 349.3232 445 363.275 445 Z" fill="white"/>
+        <path d="M 363.275 445 L 481.225 445 C 495.1768 445 506.5 453.848 506.5 464.75 C 506.5 475.652 495.1768 484.5 481.225 484.5 L 363.275 484.5 C 349.3232 484.5 338 475.652 338 464.75 C 338 453.848 349.3232 445 363.275 445 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(359.85 454.75)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" x="6.824" y="16">Progress: </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" y="16">35%</tspan>
+        </text>
+      </g>
+      <g id="Graphic_17">
+        <path d="M 701.4 445 L 803.6 445 C 815.6888 445 825.5 453.848 825.5 464.75 C 825.5 475.652 815.6888 484.5 803.6 484.5 L 701.4 484.5 C 689.3112 484.5 679.5 475.652 679.5 464.75 C 679.5 453.848 689.3112 445 701.4 445 Z" fill="white"/>
+        <path d="M 701.4 445 L 803.6 445 C 815.6888 445 825.5 453.848 825.5 464.75 C 825.5 475.652 815.6888 484.5 803.6 484.5 L 701.4 484.5 C 689.3112 484.5 679.5 475.652 679.5 464.75 C 679.5 453.848 689.3112 445 701.4 445 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(699.1 454.75)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" x="19.912" y="16">Badge:</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" y="16"> 7</tspan>
+        </text>
+      </g>
+      <g id="Graphic_18">
+        <rect x="330.25" y="513.75" width="505.5" height="86" fill="white"/>
+        <rect x="330.25" y="513.75" width="505.5" height="86" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_19">
+        <text transform="translate(334.25 518.75)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">ChoiceBar</tspan>
+        </text>
+      </g>
+      <g id="Graphic_20">
+        <path d="M 370.2875 546.75 L 524.4625 546.75 C 542.6992 546.75 557.5 555.598 557.5 566.5 C 557.5 577.402 542.6992 586.25 524.4625 586.25 L 370.2875 586.25 C 352.0508 586.25 337.25 577.402 337.25 566.5 C 337.25 555.598 352.0508 546.75 370.2875 546.75 Z" fill="white"/>
+        <path d="M 370.2875 546.75 L 524.4625 546.75 C 542.6992 546.75 557.5 555.598 557.5 566.5 C 557.5 577.402 542.6992 586.25 524.4625 586.25 L 370.2875 586.25 C 352.0508 586.25 337.25 577.402 337.25 566.5 C 337.25 555.598 352.0508 546.75 370.2875 546.75 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(364.275 556.5)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" x="27.524" y="16">Progress:</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" y="16"> 45%</tspan>
+        </text>
+      </g>
+      <g id="Graphic_21">
+        <path d="M 698.65 546.75 L 800.85 546.75 C 812.9388 546.75 822.75 555.598 822.75 566.5 C 822.75 577.402 812.9388 586.25 800.85 586.25 L 698.65 586.25 C 686.5612 586.25 676.75 577.402 676.75 566.5 C 676.75 555.598 686.5612 546.75 698.65 546.75 Z" fill="white"/>
+        <path d="M 698.65 546.75 L 800.85 546.75 C 812.9388 546.75 822.75 555.598 822.75 566.5 C 822.75 577.402 812.9388 586.25 800.85 586.25 L 698.65 586.25 C 686.5612 586.25 676.75 577.402 676.75 566.5 C 676.75 555.598 686.5612 546.75 698.65 546.75 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(696.35 556.5)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" x="15.464" y="16">Badge:</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" y="16"> 12</tspan>
+        </text>
+      </g>
+      <g id="Graphic_27">
+        <rect x="742" y="707.5" width="129" height="55.75" fill="white"/>
+        <rect x="742" y="707.5" width="129" height="55.75" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_29">
+        <text transform="translate(747 712.5)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">A component</tspan>
+        </text>
+      </g>
+      <g id="Graphic_30">
+        <text transform="translate(597.572 725.375)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">React component:</tspan>
+        </text>
+      </g>
+      <g id="Graphic_31">
+        <path d="M 761.35 783 L 851.65 783 C 862.3312 783 871 791.848 871 802.75 C 871 813.652 862.3312 822.5 851.65 822.5 L 761.35 822.5 C 750.6688 822.5 742 813.652 742 802.75 C 742 791.848 750.6688 783 761.35 783 Z" fill="white"/>
+        <path d="M 761.35 783 L 851.65 783 C 862.3312 783 871 791.848 871 802.75 C 871 813.652 862.3312 822.5 851.65 822.5 L 761.35 822.5 C 750.6688 822.5 742 813.652 742 802.75 C 742 791.848 750.6688 783 761.35 783 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(759.9 792.75)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="10" y="15">Some text</tspan>
+        </text>
+      </g>
+      <g id="Graphic_32">
+        <text transform="translate(597.572 792.75)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="9947598e-20" y="15">HTML element:</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

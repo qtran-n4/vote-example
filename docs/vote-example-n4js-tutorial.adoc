@@ -20,6 +20,45 @@ Step 4: Clean & Build the project. After this step, the project should has no co
 
 == Application structure
 
+The application structure is shown in the N4JS IDE as follows.
+
+[.center]
+image:images/app-structure.png["app structure", width=300]
+
+The folder `public` contains `index.html` and the CSS file used to style the UI.
+
+The `index.html` has the following content
+
+[source,html]
+----
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Vote as a Service</title>
+        <link rel="stylesheet" href="tetra.css">
+    </head>
+
+    <body>
+    	<!-- The React vote app is mounted as a child of this div -->
+        <div id="voteAppMountPoint"></div>
+    </body>
+
+    <!-- Import the bundled JavaScript file created by the Webpack -->
+    <script type="text/javascript" src="dist/vote-app.js"></script>
+</html>
+----
+
+The vote app is mounted as a child element of the `div` of id `voteAppMountPoint`. Moreover, we include the JavaScript file `dist/vote-app.js` bundled by Webpack that contains all the JavaScript file of the app. Of course, for this to work, we have to configure Webpack to output the bundled file into the file `dist/vote-app.js` (this is configured in `devserver.js`).
+
+The N4JS code of the application is located inside the folder `src`. Since we are using React with JSX, we use `n4jsx` file extension rather than `n4js`. The root of the application is `main.n4jsx`, in which a root React component `Layout` is instantiated and mounted to the `div` of id `voteAppMountPoint`.
+
+The application UI is a hierarchy of React components mixed with HTML elements as shown in the diagram below.
+
+[[img:react-components]]
+[.center]
+image:images/react-components.svg[react components]
+
 
 
 == Build process
@@ -38,7 +77,7 @@ The answer is: n4js transpiler does not support transpiling into multiple target
 
 For development, we use Webpack Development Server that supports Hot Reloading, i.e. changes during development are reflected immediately in the browser.
 
-The file `devserver.js` configures webpack and starts a Webpack Dev Server.
+The file `devserver.js` configures Webpack and starts a Webpack Dev Server. In particular, we configure Webpack to use `src-gen/client/main.js` as the entry point to calculate the dependent JavaScript files. Moreover, we configure Webpack to output the resultant bundled JavaScript file into the file `public/dist/vote-app.js`
 
 
 === Run the application
