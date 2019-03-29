@@ -17,7 +17,7 @@ const config = {
   },
   resolve: {
 	alias: {
-      vote: __dirname
+      "vote-example": __dirname
      }
   },
   module:  {

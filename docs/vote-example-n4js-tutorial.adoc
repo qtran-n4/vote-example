@@ -1,0 +1,67 @@
+= vote-example
+
+This project implements the link:https://github.com/reactbuch/vote-example[**Vote Example**] from the excellent  book link:https://reactbuch.de/[**React Buch**] (in German) in link:https://www.eclipse.org/n4js/[n4js].
+
+
+== Developer Setup
+
+Follow these steps to import the app into N4JS IDE.
+
+Step 1: Download the link:https://projects.eclipse.org/projects/technology.n4js/downloads[latest N4JS IDE] for your operating system.
+
+Step 2: The project is already an Eclipse with the `.project` file in the root `vote-example`. Hence, you can simply import it into the N4JS IDE workspace via `File => Import => Existing Projects into Workspace`.
+
+The IDE will complain that npm dependencies declared in `package.json` are missing. Use the quickfix `run npm/yarn in this project` to fix this issue.
+
+Step 3: Open the library manager dialog and choose `Re-Build node_modules`.
+
+Step 4: Clean & Build the project. After this step, the project should has no compilation errors anymore.
+
+
+== Application structure
+
+
+
+== Build process
+
+<<img:react-build-process>> shows the build process of the application.
+
+[[img:react-build-process]]
+image:images/react-build-process.svg[react build process]
+
+The build process of the application makes use of the following tools:
+
+* **Webpack**: a bundler that bundles all JavaScript files into a single JavaScript file called `vote-app.js` which can be embedded in an `index.html` file. In particular, **Webpack** starts at the entry point `main.js` and concatenates all (possible transitively) dependent JavaScript files into a single JS file. Before the concatenation, the files can be preprocessed by _loaders_. We use Babel loader in this application.
+
+* **Babel**: a compiler that transpiles JavaScript and JSX code into backwards compatible version of JavaScript understood by older browsers and environments. You may ask: _N4JS already has a transpiler, why do we need Babel at all?_
+The answer is: n4js transpiler does not support transpiling into multiple targets. Instead, it transpiles N4JS code into ES6 code. Consequently, If we want our React application to be runnable on older browsers, we will need Babel to transpile ES6 code into lower code, e.g. ES5, ES3.
+
+For development, we use Webpack Development Server that supports Hot Reloading, i.e. changes during development are reflected immediately in the browser.
+
+The file `devserver.js` configures webpack and starts a Webpack Dev Server.
+
+
+=== Run the application
+
+In the root folder of the project `vote-example`, execute the following command to install all dependencies.
+
+[source,bash]
+----
+npm install
+----
+
+In `package.json`, a `start` script for executing `devserver.js` is defined. To start the application, run
+
+[source,bash]
+----
+npm start
+----
+
+The web app is served at port 8080 and should look similar to the following screenshot.
+
+image:images/vote-app-screenshot.png[Vote app screenshot]
+
+
+
+
+
