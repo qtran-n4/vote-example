@@ -15,6 +15,7 @@ module.exports = {
     path: path.resolve(__dirname, 'public/dist')
   },
   devtool: 'inline-source-map', 
+  /** Configure Webpack Dev server */
   devServer: {
   	// Serve files from the `public` folder at localhost:8080 
 	contentBase: path.join(__dirname, 'public'),
