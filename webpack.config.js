@@ -20,7 +20,8 @@ module.exports = {
   	// Serve files from the `public` folder at localhost:8080 
 	contentBase: path.join(__dirname, 'public'),
 	port: 8080,
-	hot: true
+	hot: true,
+	writeToDisk: true
   },
 
   plugins: [

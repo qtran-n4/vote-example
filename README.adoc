@@ -103,6 +103,8 @@ The web app is served at port 8080 and should look similar to the following scre
 image:images/vote-app-screenshot.png[Vote app screenshot]
 
 
+=== Next steps
 
-
+In the next steps, we can use Redux as a store of the application. Check link:https://github.com/qtran-n4/vote-example-redux[vote-example-redux]
+ to see how this can be done.
 
